@@ -1,6 +1,6 @@
 module.exports = {
   process: function (src, path) {
-    var coffee = require('coffee-script')
+    var coffee = require('coffeescript')
     if (coffee.helpers.isCoffee(path)) {
       return coffee.compile(src, {
         'bare': true,

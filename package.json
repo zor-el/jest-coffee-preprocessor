@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/nicolindemann/jest-coffee-preprocessor#readme",
   "dependencies": {
-    "coffee-script": "^1.12.6"
+    "coffeescript": "^2"
   },
   "devDependencies": {
     "standard": "^11.0.0"
